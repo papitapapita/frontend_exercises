@@ -1,0 +1,36 @@
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  align-items: center;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  overflow: hidden;
+  width: 500px;
+}
+
+.card img {
+  width: 100%;
+  height: 40%;
+}
+
+.card img:nth-of-type(2) {
+  margin-top: -100px;
+  border: 5px solid antiquewhite;
+  border-radius: 100%;
+  width: 40%;
+  height: 30%;
+}
+
+.country::before {
+  content: "🚀";
+}
+
+.email::before {
+  content: "✉️";
+}
